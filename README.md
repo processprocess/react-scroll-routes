@@ -3,5 +3,4 @@
 * Scrolling on route change.
 * Route changing on scroll.
 
-* zen-scroll
-* react-waypoint
+simple as that.
