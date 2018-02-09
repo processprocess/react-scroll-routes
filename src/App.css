@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a,
+a.visited {
+  margin-right: 10px;
+  color: blue;
+}
+
+a.active {
+  color: red;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.home-node {
+  background-color: tomato;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.non-scrolling-page {
+  height: 1000px;
+  background: lightblue;
+}
