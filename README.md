@@ -1,6 +1,7 @@
 ## React-Scroll-Routes
 
-Scrolling on route change. Route changing on scroll.
+* Scrolling on route change.
+* Route changing on scroll.
 
-* zen-croll
+* zen-scroll
 * react-waypoint
