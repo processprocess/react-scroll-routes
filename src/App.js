@@ -95,42 +95,42 @@ const NavLinks = () => (
 // Home comonents
 
 const Header = props => (
-  <div className="home home-node">
+  <div className="deafault-node">
     <h1>home - {props.content}</h1>
     <p>lorem ipsum</p>
   </div>
 );
 
 const About = props => (
-  <div className="home-node">
+  <div className="deafault-node">
     <h1>about - {props.content}</h1>
     <p>lorem ipsum</p>
   </div>
 );
 
 const Contact = props => (
-  <div className="home-node">
+  <div className="deafault-node">
     <h1>contact - {props.content}</h1>
     <p>lorem ipsum</p>
   </div>
 );
 
 const News = props => (
-  <div className="home-node">
+  <div className="deafault-node">
     <h1>news - {props.content}</h1>
     <p>lorem ipsum</p>
   </div>
 );
 
 const Gallery = props => (
-  <div className="home-node">
+  <div className="deafault-node">
     <h1>gallery - {props.content}</h1>
     <p>lorem ipsum</p>
   </div>
 );
 
 const NonScrollPage = props => (
-  <div className="home-node non-scrolling-page">
+  <div className="deafault-node non-scrolling-page">
     <h1>non-scroll</h1>
     <p>non scroll</p>
   </div>
@@ -156,23 +156,23 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <WayPointWrapper path={"/"}>
+        <WayPointWrapper path="/">
           <Header content="home" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/about"}>
+        <WayPointWrapper path="/about">
           <About content="home" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/contact"}>
+        <WayPointWrapper path="/contact">
           <Contact content="home" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/news"}>
+        <WayPointWrapper path="/news">
           <News content="home" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/gallery"}>
+        <WayPointWrapper path="/gallery">
           <Gallery content="home" />
         </WayPointWrapper>
       </div>
@@ -200,24 +200,24 @@ class Location extends React.Component {
   render() {
     return (
       <div>
-        <WayPointWrapper path={"/nyc"}>
-          <Header content="nyc" path="/nyc" />
+        <WayPointWrapper path="/nyc">
+          <Header content="nyc" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/nyc/about"}>
-          <About content="nyc" path="/nyc/about" />
+        <WayPointWrapper path="/nyc/about">
+          <About content="nyc" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/nyc/contact"}>
-          <Contact content="nyc" path="/nyc/contact" />
+        <WayPointWrapper path="/nyc/contact">
+          <Contact content="nyc" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/nyc/news"}>
-          <News content="nyc" path="/nyc/news" />
+        <WayPointWrapper path="/nyc/news">
+          <News content="nyc" />
         </WayPointWrapper>
 
-        <WayPointWrapper path={"/nyc/gallery"}>
-          <Gallery content="nyc" path="/nyc/gallery" />
+        <WayPointWrapper path="/nyc/gallery">
+          <Gallery content="nyc" />
         </WayPointWrapper>
       </div>
     );

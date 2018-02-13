@@ -29,7 +29,7 @@ nav {
   z-index: 1;
 }
 
-.home-node {
+.deafault-node {
   background-color: tomato;
   position: relative;
   height: 500px;
