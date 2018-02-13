@@ -73,6 +73,7 @@ class WayPointWrapper extends React.Component {
         }}
         topOffset={window.innerHeight / 2}
         bottomOffset={window.innerHeight / 2 - 1}
+        fireOnRapidScroll={false}
       >
         <div id={this.props.path}>{this.props.children}</div>
       </Waypoint>
