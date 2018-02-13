@@ -157,12 +157,12 @@ class Home extends React.Component {
     history: PropTypes.object
   };
 
-  componentWillReceiveProps(nextProps) {
-    WayPointWrapper.scrollToActive(nextProps.location.pathname);
+  componentDidMount() {
+    WayPointWrapper.snapToActive(this.props.location.pathname);
   }
 
-  componentDidMount() {
-    WayPointWrapper.scrollToActive(this.props.location.pathname);
+  componentWillReceiveProps(nextProps) {
+    WayPointWrapper.scrollToActive(nextProps.location.pathname);
   }
 
   render() {
@@ -201,12 +201,12 @@ class Location extends React.Component {
     history: PropTypes.object
   };
 
-  componentWillReceiveProps(nextProps) {
-    WayPointWrapper.scrollToActive(nextProps.location.pathname);
+  componentDidMount() {
+    WayPointWrapper.snapToActive(this.props.location.pathname);
   }
 
-  componentDidMount() {
-    WayPointWrapper.scrollToActive(this.props.location.pathname);
+  componentWillReceiveProps(nextProps) {
+    WayPointWrapper.scrollToActive(nextProps.location.pathname);
   }
 
   render() {
