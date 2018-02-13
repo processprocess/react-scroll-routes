@@ -49,6 +49,18 @@ class WayPointWrapper extends React.Component {
     }
   };
 
+  static snapToActive = path => {
+    if (window.shouldScroll) {
+      // error handler - no waypoints
+      // enhancement opportunity - check if waypoints are on page
+      if (!document.getElementById(path)) {
+        console.log("no scroll points on page");
+      } else {
+        zenscroll.center(document.getElementById(path), 0);
+      }
+    }
+  };
+
   render() {
     return (
       <Waypoint
