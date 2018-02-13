@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import zenscroll from "zenscroll";
 import Waypoint from "react-waypoint";
-import ReactDOM from "react-dom";
 
 import "./App.css";
 
